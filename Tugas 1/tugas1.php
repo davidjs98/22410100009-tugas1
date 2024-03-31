@@ -1,27 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        table, th, td {
-            border: 1px solid purple;
-            border-collapse: collapse;
-        }
-        td{
-            
-            padding: 10px;
-        }
-        th {
-            background-color: #ffff00;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>   
+    <link rel="stylesheet" href="mycss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table barang</title>
 </head>
 <body>
-    <p><a href="tugas2.php" target="_self">Visit Tugas 2</a></p>
+    <p><a href="tugas2.php" target="_self"><button class="btn"><i class="fa fa-plus"></i> tambah</button></a></p>
     <table>
         <tr>
             <th rowspan="2">kode</th>
@@ -40,7 +27,7 @@
             <td>pcs</td>
             <td>200</td>
             <td>350</td>
-            <td><a href="tugas3.php" target="_self"> <input type="button" name="edit" value="edit"></a></td>
+            <td><a href="tugas3.php" target="_self"> <button class="btn"><i class="fa fa-edit"></i> edit</button></a></td>
         </tr>
         <tr>
             <td>M02</td>
@@ -48,7 +35,7 @@
             <td>pcs</td>
             <td>300</td>
             <td>450</td>
-            <td><a href="tugas3.php" target="_self"> <input type="button" name="edit" value="edit"></a></td>
+            <td><a href="tugas3.php" target="_self"> <button class="btn"><i class="fa fa-edit"></i> edit</button></a></td>
         </tr>
         <tr>
             <td>M03</td>
@@ -56,7 +43,7 @@
             <td>pcs</td>
             <td>400</td>
             <td>550</td>
-            <td><a href="tugas3.php" target="_self"> <input type="button" name="edit" value="edit"></a></td>
+            <td><a href="tugas3.php" target="_self"> <button class="btn"><i class="fa fa-edit"></i> edit</button></a></td>
         </tr>
     </table>
 </body>
